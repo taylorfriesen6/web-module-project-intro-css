@@ -74,6 +74,10 @@ section.description {
     background-color: #DDB9A3;
 }
 
+.emphatic {
+    font-weight: bold;
+}
+
 footer {
     background-color: #F9E7DC;
 }
