@@ -52,10 +52,22 @@ table {
 
 html {
     font-family: 'Roboto Mono', monospace;
+    font-size: 62.5%;
 }
 
 h1 {
     font-family: 'Chelsea Market', cursive;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    display: inline-block;
+    padding: 1em;
+    width: 10em;
+    text-align: center;
+    border-radius: 1em;
 }
 
 a.plan-visit {
