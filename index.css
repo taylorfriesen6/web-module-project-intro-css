@@ -1,4 +1,4 @@
-?* css reset, from https://meyerweb.com/eric/tools/css/reset/ */
+/* css reset, from https://meyerweb.com/eric/tools/css/reset/ */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -42,4 +42,27 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+
+
+
+a.plan-visit {
+    background-color: #FF764E;
+}
+
+a.learn-about {
+    background-color: #5ED3EB;
+}
+
+a.get-involved {
+    background-color: #FFCD69;
+}
+
+section.description {
+    background-color: #DDB9A3;
+}
+
+footer {
+    background-color: #F9E7DC;
 }
