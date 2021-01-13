@@ -57,6 +57,7 @@ html {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 3rem;
 }
 
 a {
@@ -71,8 +72,7 @@ a {
 }
 
 #header-photo {
-    border: 10px solid black;
-    width: 10%;
+    width: 20%;
     display: inline-block;
 }
 
@@ -84,6 +84,11 @@ a {
 
 #header-right-side {
     display: inline-block;
+    text-align: center;
+}
+#header-right-side p {
+    font-size: 1.6rem;
+    margin: 2em;
 }
 
 a.plan-visit {
