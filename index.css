@@ -49,9 +49,6 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    border: 1px solid black;
-}
 
 html {
     font-family: 'Roboto Mono', monospace;
@@ -60,7 +57,7 @@ html {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 nav a {
@@ -114,7 +111,7 @@ a.get-involved {
     font-size:1.6rem;
     color: white;
     text-align: center;
-    margin: 1em auto;
+    margin: 1em 3em;
 }
 
 #description p {
