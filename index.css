@@ -49,6 +49,9 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    border: 1px solid black;
+}
 
 html {
     font-family: 'Roboto Mono', monospace;
@@ -60,19 +63,20 @@ h1 {
     font-size: 3rem;
 }
 
-a {
+nav a {
     color: white;
     text-decoration: none;
     font-size: 1.6rem;
     display: inline-block;
     padding: 1em;
-    width: 10em;
+    /* width: 10em; */
     text-align: center;
     border-radius: 1em;
+    margin: 2em 8%;
 }
 
 #header-photo {
-    width: 20%;
+    width: 20rem;
     display: inline-block;
 }
 
@@ -93,6 +97,7 @@ a {
 
 a.plan-visit {
     background-color: #FF764E;
+    /* margin-left: 0; */
 }
 
 a.learn-about {
@@ -101,6 +106,7 @@ a.learn-about {
 
 a.get-involved {
     background-color: #FFCD69;
+    /* margin right: 0; */
 }
 
 section.description {
@@ -113,4 +119,16 @@ section.description {
 
 footer {
     background-color: #F9E7DC;
+}
+
+#footer-photo {
+    width: 100%;
+    max-height: 20vw;
+    border 10px solid black;
+    overflow: hidden;
+}
+
+#footer-photo img{
+    width:100%;
+
 }
