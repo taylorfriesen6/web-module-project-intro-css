@@ -109,8 +109,32 @@ a.get-involved {
     /* margin right: 0; */
 }
 
-section.description {
+#description {
     background-color: #DDB9A3;
+    font-size:1.6rem;
+    color: white;
+    text-align: center;
+    margin: 1em auto;
+}
+
+#description p {
+    padding: 1em;
+    text-align: center;
+}
+
+.icon {
+    margin: 0 auto;
+    width: 10%
+}
+
+.icon img {
+    width: 100%
+}
+
+#info p {
+    text-align: center;
+    width: 20%;
+    margin: auto;
 }
 
 .emphatic {
