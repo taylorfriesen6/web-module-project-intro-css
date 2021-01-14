@@ -134,7 +134,7 @@ a.get-involved {
 #info p {
     text-align: center;
     width: 20%;
-    margin: auto;
+    margin: 1em auto 5em auto;
 }
 
 .emphatic {
